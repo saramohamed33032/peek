@@ -1,0 +1,804 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  
+   
+
+    
+}
+body{
+      margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.btn{
+    padding:13px 20px;
+/*    border-radius: 3px;*/
+    border: none;
+    margin: 3% 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 10px #000;
+    
+    
+}
+.btn-outlet{
+     padding:8px 10px;
+    border-radius: 3px;
+    border: black;
+    background-color: none;
+}
+h1,h2,h3,h4,h5,h6,h7{
+   text-transform: capitalize;
+    letter-spacing: 1.3px;
+    word-spacing: 1px;
+/*    font-weight: 700;*/
+    margin: 1rem;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    line-height:27px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-shadow: 2px 2px 8px #fff;
+/*    padding: 1% 25% 0;*/
+    
+ 
+}
+
+.container{
+    width: 100%;
+    padding: 0 10%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*start header*/
+
+.full-header{
+    background-image: url(../img/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+.full-header .top-header{
+    padding:    30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.full-header .top-header div{
+    width: 33.33%;
+    
+}
+.full-header .top-header nav ul{
+    margin: 0;
+    padding:0;
+    float: left;
+    
+    
+}
+.full-header .top-header nav ul li{
+    display: inline-block;
+    
+}
+.full-header .top-header nav ul li a{
+
+    
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    text-decoration: none;
+    
+    
+}
+.full-header .top-header nav ul #innernavbar{
+    display: none;
+}
+
+.full-header .top-header nav ul #innernavbar ul{
+    display: block;
+    padding: 5%;
+    margin: 5% 28vw;
+    background-color: #fff;
+    
+    
+}
+.full-header .top-header nav ul #innernavbar ul li{
+    margin:8% 0;
+}
+.full-header .top-header nav ul #innernavbar ul li a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 2% 0;
+    
+    text-decoration: none;
+    
+}
+.full-header .top-header nav ul #innernavbar ul li a:hover{
+    color: #ddd;
+    margin-left: 4%;
+}
+
+#menu{
+        border-radius: 10px;
+        background-color: #0765d5;
+        color: #fff;
+        box-shadow: 0;
+        display: none;
+    }
+
+.full-header .top-header .logo{
+    text-align: center;
+    
+}
+.full-header .top-header .logo h1{
+    color: #0765d5;
+    font-size:3em;
+    margin-top: -3%;
+}
+
+.full-header .top-header .social-media ul{
+    float: right;
+    margin-right: 4%;
+}
+.full-header .top-header .social-media ul li{
+    display: inline-block;
+}
+.full-header .top-header .social-media ul a{
+   
+    color: #fff;
+    padding: 8px 3px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.full-header .top-header .social-media ul a span{
+   
+    padding:8px;
+    border-radius: 50%;
+    
+   
+}
+
+
+/*start banner-header*/
+.full-header .banner-header{
+    margin-top: 3%;
+    
+    padding:25px; 
+    color: #fff;
+   
+}
+.full-header .banner-header h2{
+    font-size: 2em;
+    letter-spacing: 3.7px;
+}
+.full-header .banner-header h1{
+    font-size: 3em;
+    letter-spacing: 3.7px;
+    
+    
+    
+}
+.full-header .banner-header span{
+    color: #FBBE30;
+}
+
+.full-header .banner-header p{
+  
+    padding: 2% 25% 0;
+    text-shadow: 2px 2px 8px #000;
+
+}
+
+/*end banner-header*/
+
+/*end header*/
+
+
+/*start about us*/
+.aboutus{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    overflow: hidden;
+}
+.aboutus h2{
+    
+    
+}
+.aboutus  p{
+    color: #8D768C;
+    padding: 1% 25% 0;
+    
+}
+.aboutus .container .row{
+    padding: 30px 20px;
+    
+}
+.aboutus .container .row h3{
+    color: #4f89d4;
+   
+}
+.aboutus .container .row i{
+    color: #4f89d4;
+     margin-bottom: 12%;
+    
+}
+.aboutus .container .row p{
+    padding: 1% 2% 0;
+}
+
+.aboutus .container .row div{
+    width: 25%;
+    float: left;
+    margin: 3% 0;
+    text-align: center;
+    
+
+}
+.aboutus .container .row div span{
+     padding:20px;
+    border-radius: 50%;
+    border: 2px solid #FBBE30;
+    
+}
+
+/*end about us*/
+
+
+
+/*start our services*/
+.ourservices{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    overflow: hidden;
+    background-color: #0765D5;
+    padding: 3% 0;
+    color: #fff;
+}
+.ourservices p{
+    color: #BDBDBF;
+    text-shadow: 1px 1px  rgba(0,0,0,.4);
+    padding: 1% 25% 0;
+    font-size:15px; 
+}
+.ourservices .row{
+    margin-top:3%; 
+}
+.ourservices .row .image{
+    
+    width: 53%;
+    float: left;
+    background-image: url(../img/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:95vh;
+
+    
+}
+.ourservices .row .image h1{
+    padding: 2% 20%;
+    font-size: 30px;
+    line-height: 40px;
+    line-height: 37px;
+    letter-spacing: 1.7;
+}
+.ourservices .row .icons {
+    width: 30%;
+    margin: 2% 8% 2% ;
+    float: left;
+}
+.ourservices .row .icons span{
+    padding:15px;
+    border-radius: 50%;
+    border: 2px solid #FBBE30;
+   
+    
+}
+
+.ourservices .row .icons p{
+     padding: 6% 4% ;
+    color: #BDBDC2;
+    
+}
+.ourservices .row .icons .text .pp{
+    color: #fff;
+    font-size:22px;
+   margin: -8% 0 4% -25%;
+    
+}
+.ourservices .row .icons div{
+    margin-top: 2%;
+}
+
+/*end our services*/
+
+/*start dolor*/
+.dolor{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+    
+}
+.dolor div{
+    width: 50%;
+    float: left;
+}
+.dolor .imgdiv1{
+    background-image: url(../img/blog2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:75vh;
+    
+}
+.dolor .imgdiv2{
+    background-image: url(../img/blog1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:75vh;
+    
+}
+.dolor .content {
+    padding: 5% 3% 2% 5%;
+}
+.dolor .content a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 1px;
+  
+    
+}
+.dolor .content p{
+   
+    font-size: 14px;
+    letter-spacing: .7px;
+    padding: 2% 0;
+}
+.dolor .content p a{
+    
+    color: #0765CC;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+/*end dolor*/
+
+/*start Dore*/
+.Dore{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+
+.Dore div{
+    width: 100%;
+    float: left;
+}
+.Dore .imgdiv2{
+    
+    background-image: url(../img/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+    
+}
+.Dore .content {
+    padding: 5% 3% 2% 0;
+}
+.Dore .content a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 1px;
+  
+}
+.Dore .content p{
+   
+    font-size: 14px;
+    letter-spacing: .7px;
+    padding: 1% 15% 0 0;
+}
+.Dore .content p a{
+    
+    color: #0765CC;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+
+
+/*end Dore */
+/*start ourteam*/
+.ourteam{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 4% 0;
+    overflow: hidden;
+     background-image: url(../img/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+    
+} 
+.ourteam .members{
+    margin-top: 5%;
+}
+.ourteam  p{
+    color: #ddd;
+    text-shadow: 1px 1px  #000;
+    padding: 1% 25% 0;
+    font-size:15px; 
+}
+.ourteam .members .container .row div{
+  width: 25%;
+  float: left;
+    text-align: center;
+    margin: 4% 0;
+   
+  
+
+}
+.ourteam .members .container .row div >div{
+    width: 98%;
+    margin: -1% 1%;
+}
+.ourteam .members .container .row .memimg {
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.ourteam .members .container .row .social{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 8%;
+    
+}
+.ourteam .members .container .row .social ul{
+    padding-top: 5% ;
+    padding-left: 1%;
+    padding-bottom: 4%;
+  
+}
+.ourteam .members .container .row .social ul li{
+    display: inline-block;
+    margin: 0 2%;
+}
+.ourteam .members .container .row .social ul a{
+   
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    
+    
+}
+.ourteam .members .container .row .social ul a span{
+   
+    padding:8px;
+    border-radius: 50%;
+    
+   
+}
+.ourteam .members .container .row .social h3{
+    color: #0765cc;
+    letter-spacing: 2px;
+}
+
+
+/*end ourteam*/
+
+
+
+/*start galary*/
+.galary{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 4% 0;
+    overflow: hidden;
+    
+    
+    
+}
+.galary  p{
+    
+    padding: 1% 20% 4% 20%;
+    font-size:15px; 
+}
+.galary  .container .row div{
+  width: 20%;
+  float: left;
+   text-align: center;
+    margin: 1% 2%;
+    
+   
+  
+
+}
+
+
+.copyright{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1% 0;
+        
+}
+.copyright p{
+    text-shadow: 2px 2px 8px rgba(0,0,0,.2);
+    
+}
+.copyright p span{
+    color: #D69E00;
+}
+
+
+
+
+
+
+
+@media all and (max-width:992px){
+/*start header*/
+.full-header{
+   
+    height: 125vh;
+   
+}
+#menu{
+        display: block;
+        margin: 0 4%;
+    }
+#navbar{
+        display: none;
+    }
+    
+/*start header*/
+
+
+    
+    
+/*start about us */
+.aboutus .container .row div{
+    width: 50%;
+    float: left;
+    margin: 3% 0;
+     
+
+}
+.aboutus .container .row p{
+    padding: 1% 8% 5%;
+}
+.aboutus .container .row i{
+   
+     margin-bottom: 8%;
+    
+}
+/*end about us */
+    
+    
+/*start ourservices us */
+.ourservices .row .icons .text .pp{
+   
+   margin: -10% 0 4% -15%;
+    
+}
+.ourservices .row .image{
+    height: 130vh;
+}
+.ourservices .row .icons div{
+    margin-top: 4%;
+}
+
+/*end ourservices us */
+    
+    
+/*start ourteam*/
+.ourteam .members .container .row div{
+  width: 50%;
+  float: left;
+  text-align: center;
+/*    margin: 1%;*/
+   
+  
+
+}
+.ourteam .members .container .row div >div{
+    width:90%;
+    margin: -1% 1%;
+}
+.ourteam .members .container .row .social ul{
+    padding-top: 3% ;
+    padding-left: 1%;
+    padding-bottom: 2%;
+  
+}
+    
+
+/*end ourteam*/
+    
+/*start galary*/
+.galary  .container .row div{
+  width: 45%;
+ 
+    
+   
+  
+
+}    
+/*end galary*/
+
+    
+  
+}
+@media all and (max-width:768px){
+/*start header*/
+.full-header{
+   
+    height: 125vh;
+   
+}
+#menu{
+        
+ margin: 0 4% 2%;
+}
+    
+.full-header .top-header div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:18px;
+  
+}
+
+.full-header .top-header .social-media{
+    margin-left: -12px;
+   margin-top: -5px;
+    
+    
+}
+.full-header .top-header .social-media ul a span{
+   
+    padding:12px;
+    border-radius: 50%;
+    
+   
+}
+   
+.full-header .banner-header{
+    margin-top: 1%;
+    }
+.full-header .banner-header p{
+        padding: 2% 5% 0;
+    }
+/*end header*/
+    
+
+/*  start About us  */
+    
+.aboutus .container .row div{
+    width: 100%;
+    float: left;
+    margin: 3% 0;
+     
+
+}
+.aboutus .container .row p{
+    padding: 1% 20% 5% ;
+}
+.aboutus .container .row i{
+   
+     margin-bottom: 5%;
+    
+}
+    /*  end About us  */
+    
+    
+    /*start ourservices us */
+.ourservices  .row .image{
+    width: 100%;
+    float: left;
+    height: 75vh;
+        
+}
+.ourservices  .row .icons{
+    width: 100%;
+    float: left;
+    
+    }
+
+.ourservices .row .image{
+    height: 75vh;
+}
+.ourservices .row .icons div{
+    margin-top: 2%;
+}
+.ourservices .row .icons p{
+     padding: 6% 15% ;
+    
+    
+}
+.ourservices .row .icons .text .pp{
+   
+  margin: -8% 0 0 -40%;
+    
+}
+
+    /*end ourservices us */
+    
+/*start dolor*/
+.dolor div{
+    width: 100%;
+    float: left;
+}
+/*end dolor*/
+    
+    
+    
+/*start ourteam*/
+.ourteam .members .container .row div{
+  width: 100%;
+  float: left;
+  text-align: center;
+/*    margin: 1%;*/
+   
+  
+
+}
+.ourteam .members .container .row div >div{
+    width:80%;
+    margin: -1% 1%;
+}
+.ourteam .members .container .row .social ul{
+    padding-top: 3% ;
+    padding-left: 1%;
+    padding-bottom: 2%;
+  
+}
+    
+
+/*end ourteam*/
+    
+/*start galary*/
+.galary  .container .row div{
+  width: 95%;
+ 
+    
+   
+  
+
+}    
+/*end galary*/
+    
+    
+
+
+}
+   
